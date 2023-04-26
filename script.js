@@ -2,6 +2,6 @@
 let student  = {
 	name:"noman"
 	}
-student.prototype.getKeys(){
+Object.setPrototypeOf(student, getKeys(){
 	return student.keys(obj)
-}
+});
