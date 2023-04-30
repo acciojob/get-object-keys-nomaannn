@@ -1,7 +1,10 @@
-//your JS code here. If required.
-let student  = {
-	name:"noman"
-	}
-Object.setPrototypeOf(student, getKeys(){
-	return student.keys(obj)
-});
+
+
+const student = {
+  name: 'nomi',
+};
+
+// Add getKeys method to Object prototype
+Object.prototype.getKeys = function() {
+  return Object.keys(this);
+};
